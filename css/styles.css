@@ -1,0 +1,59 @@
+body {
+  font-family: Helvetica;
+  padding: 2em;
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+.packages {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.premium {
+  background-color: #1d5907;
+}
+
+.silver {
+  background-color: #C0C0C0;
+}
+
+.gold {
+  background-color: #DAA520;
+}
+
+.premium,
+.silver,
+.gold {
+  width: 100%;
+  padding: 1em 3em 2em 2em;
+  margin: 0.5em;
+  color: whitesmoke;
+}
+
+.projects-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 10em;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects {
+  margin: 1em 0;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
